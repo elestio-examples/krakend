@@ -1,8 +1,14 @@
 version: '3.3'
 services:
   krakend:
+    restart: always
     image: devopsfaith/krakend:latest
     ports:
         - '172.17.0.1:8181:8080'
         # volumes:
         #     - '$PWD:/etc/krakend/'
+  krakendesigner:
+        image: devopsfaith/krakendesigner
+        restart: always
+        ports:
+            - '172.17.0.1:8989:80'
