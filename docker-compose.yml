@@ -1,5 +1,6 @@
 version: '3.3'
 services:
+  krakend:
     image: devopsfaith/krakend:latest
     ports:
         - '172.17.0.1:8181:8080'
