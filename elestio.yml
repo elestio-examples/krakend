@@ -14,13 +14,12 @@ ports:
     targetIP: "172.17.0.1"
     public: true
     path: "/"
-    isAuth: false
+    isAuth: true
+    login: "root"
+    password: "random_password"
 environments:
   - key: "ADMIN_PASSWORD"
     value: "random_password"
-  - key: "ADMIN_EMAIL"
-    value: "[EMAIL]"
-
 config:
   runTime: "dockerCompose"
   version: ""
@@ -43,3 +42,5 @@ webUI:
     label: "KrakenD API"
   - url: "https://[CI_CD_DOMAIN]:8443"
     label: "KrakenD Admin"
+    login: "root"
+    password: "[ADMIN_PASSWORD]"
