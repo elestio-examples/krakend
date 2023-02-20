@@ -8,7 +8,7 @@ services:
         # volumes:
         #     - '$PWD:/etc/krakend/'
     volumes:
-        - ./config/krakend:/etc/krakend
+        - ./config:/etc/krakend
   # krakendesigner:
   #       image: devopsfaith/krakendesigner
   #       restart: always
