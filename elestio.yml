@@ -40,7 +40,3 @@ lifeCycleConfig:
 webUI:
   - url: "https://[CI_CD_DOMAIN]/__health"
     label: "KrakenD API"
-  - url: "https://[CI_CD_DOMAIN]:8443"
-    label: "KrakenD Admin"
-    login: "root"
-    password: "[ADMIN_PASSWORD]"

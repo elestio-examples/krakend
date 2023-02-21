@@ -20,4 +20,10 @@ You can can open KrakenD UI here:
 
 # Documentation
 
-https://www.krakend.io/docs/overview/
+    https://www.krakend.io/docs/overview/
+
+# Update the .json file
+
+    Once your .json file is downloaded from Krakend UI, update the one online, by going to the Tool tab and going to VS Code. you will find the old .json file in the config folder.
+
+    Once finished, go back to the Details tab and click on Restart Stack
