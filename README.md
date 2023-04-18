@@ -10,11 +10,11 @@ Deploy KrakenD server with CI/CD on Elestio
 
 # Once deployed ...
 
-You can can open KrakenD API here:
+You can open KrakenD API here:
 
     URL: https://[CI_CD_DOMAIN]/__health
 
-You can can open KrakenD UI here:
+You can open KrakenD UI here:
 
     URL: https://[CI_CD_DOMAIN]:8443
 
