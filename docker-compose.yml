@@ -2,7 +2,7 @@ version: '3.3'
 services:
   krakend:
     restart: always
-    image: devopsfaith/krakend:latest
+    image: devopsfaith/krakend:${SOFTWARE_VERSION_TAG}
     ports:
         - '172.17.0.1:8080:8080'
     volumes:
